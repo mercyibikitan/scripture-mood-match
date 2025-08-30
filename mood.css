@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #0a0d2d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .mood-widget {
+    background: #121640;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+  }
+  
+  .mood-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .mood-header h2 {
+    font-size: 20px;
+  }
+  
+  .mood-header .beta {
+    font-size: 12px;
+    color: #ffcc00;
+  }
+  
+  .mood-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .mood-buttons button {
+    flex: 1;
+    background: #1a1f5c;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .mood-buttons button:hover {
+    background: #2b34a3;
+  }
+  
+  .verse-box {
+    background: #1a1f5c;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #verse-ref {
+    color: #66c2ff;
+    margin-bottom: 10px;
+  }
+  
+  .encouragement {
+    font-style: italic;
+    margin-top: 10px;
+    color: #b3d9ff;
+  }
+  

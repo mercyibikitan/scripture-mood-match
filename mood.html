@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scripture Mood Match</title>
+  <link rel="stylesheet" href="mood.css">
+</head>
+<body>
+  <div class="mood-widget">
+    <div class="mood-header">
+      <h2>Scripture Mood Match </h2>
+    </div>
+
+    <div class="mood-buttons">
+      <button onclick="getVerse('stressed')">😓 Stressed</button>
+      <button onclick="getVerse('anxious')">😰 Anxious</button>
+      <button onclick="getVerse('hopeful')">💪 Hopeful</button>
+      <button onclick="getVerse('joyful')">😊 Joyful</button>
+      <button onclick="getVerse('sad')">😢 Sad</button>
+      <button onclick="getVerse('angry')">😡 Angry</button>
+      <button onclick="getVerse('grateful')">🙏 Grateful</button>
+      <button onclick="getVerse('lonely')">🥺 Lonely</button>
+      <button onclick="getVerse('tired')">😴 Tired</button>
+      <button onclick="getVerse('confused')">🤔 Confused</button>
+    </div>
+
+    <div class="verse-box">
+      <h3 id="verse-ref">Today's Verse</h3>
+      <p id="verse-text">Click a mood to get your verse 💙</p>
+      <p id="encouragement" class="encouragement"></p>
+    </div>
+  </div>
+
+  <script src="mood.js"></script>
+</body>
+</html>
